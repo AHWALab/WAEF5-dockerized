@@ -1,4 +1,4 @@
-# West Africa EF5 Workshop
+# SERVIR - West Africa EF5 Workshop
 
 This repository contains all materials needed for running the EF5 hydrological model for West Africa at a 1 km resolution.
 
