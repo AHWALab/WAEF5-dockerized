@@ -1,24 +1,24 @@
 [Basic]
-DEM=
-DDM=
-FAM=
+DEM=/data/basic/dem.tif
+DDM=/data/basic/ddm.tif
+FAM=/data/basic/fam.tif
 PROJ=geographic
 ESRIDDM=true 
 SelfFAM=false
 
 [PrecipForcing IMERG]
-TYPE=
-UNIT=
-FREQ=
-LOC=
-NAME=
+TYPE=TIF
+UNIT=mm/h
+FREQ=30u
+LOC=/data/precip/
+NAME=imerg.YYYYMMDDHHUU.tif
 
 [PETForcing CLIMO]
-LOC=
-FREQ=
-UNIT=
-NAME=
-TYPE=
+LOC=/data/pet/
+FREQ=1m
+UNIT=mm/d
+NAME=PET.MM.tif
+TYPE=TIF
 
 #---Start Gauge-Basin Block
 [Gauge 0] cellx=3139 celly=3300 outputts=false #Num Cells = 2522886.000000
@@ -36578,10 +36578,10 @@ gauge=0 gauge=1 gauge=2 gauge=3 gauge=4 gauge=5 gauge=6 gauge=7 gauge=8 gauge=9 
 #---End Gauge-Basin Block
 
 [CrestParamSet MyCRESTPAR]
-wm_grid=
-b_grid=
-im_grid=
-fc_grid=
+wm_grid=/data/parameters/wm_crest.tif
+b_grid=/data/parameters/b_crest.tif
+im_grid=/data/parameters/im_crest.tif
+fc_grid=/data/parameters/fc_crest.tif
 gauge=0
 wm=1.00
 b=1.0
@@ -36591,10 +36591,10 @@ fc=1.00
 iwu=0.0
 
 [kwparamset MyKWPAR]
-alpha_grid=
-beta_grid=
-alpha0_grid=
-under_grid=
+alpha_grid=/data/parameters/alpha_kw.tif
+beta_grid=/data/parameters/beta_kw.tif
+alpha0_grid=/data/parameters/alpha0_kw.tif
+under_grid=/data/parameters/fc_crest.tif
 gauge=0
 alpha=1.0
 alpha0=1.0
