@@ -1,4 +1,4 @@
-# West Africa EF5 Workshop
+# SERVIR - West Africa EF5 Workshop
 
 This repository contains all materials needed for running the EF5 hydrological model for West Africa at a 1 km resolution.
 
@@ -35,7 +35,7 @@ You can either **download** or **clone** the repository to your machine.
 1. Copy the repository URL under **Code > HTTPS**.
 2. Run the following command in your terminal:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/RobledoVD/WAEF5-dockerized.git
    ```
 3. Place the cloned folder in a directory without spaces in its name.
 
