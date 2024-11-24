@@ -4,7 +4,7 @@ This repository contains all materials needed for running the EF5 hydrological m
 
 ## System Requirements
 - A laptop with **at least 8 GB of RAM**.
-
+- A Google account to access Google Colab.
 ---
 
 ## Setup Instructions
