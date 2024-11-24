@@ -27,7 +27,7 @@ ARG DOCKER_BASE_OS="alpine:3.17"
 ################################################################################
 #      BUILD A STANDARD ALPINE LINUX IMAGE FOR THE APPLICATION CONTAINER
 ################################################################################
-FROM ${DOCKER_BASE_OS} as ef5-image
+FROM ${DOCKER_BASE_OS} AS ef5-image
 LABEL nssl.wrdd.image.authors="jorge.duarte@noaa.gov"
 
 # Define VOLUMES for Bind Mounts
