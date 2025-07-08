@@ -1,10 +1,9 @@
-# SERVIR - West Africa EF5 Workshop
+# Iowa EF5 configuration model
 
-This repository contains all materials needed for running the EF5 hydrological model for West Africa at a 1 km resolution.
+This repository contains all materials needed for running the EF5 hydrological model for Iowa at a 90m resolution.
 
 ## System Requirements
 - A laptop with **at least 8 GB of RAM**.
-- A Google account to access Google Colab.
 ---
 
 ## Setup Instructions
@@ -49,7 +48,7 @@ You can either **download** or **clone** the repository to your machine.
 1. Open your terminal and navigate to the project's main folder.  
    Example for a folder on your Desktop:
    ```bash
-   cd ~/Desktop/EF5WA-dockerized-main/
+   cd ~/Desktop/IowaEF5_dockerized/
    ```
 2. Change into the `docker/` folder:
    ```bash
