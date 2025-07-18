@@ -77,3 +77,6 @@ After a successful build, you can verify the presence of the EF5 container in Do
 The EF5 Docker image is now ready to be executed.
 
 --- 
+
+### Complete the required folders 
+To complete EF5 input forcing you will need to download PET files, you can use [EF5-US-Parameters](https://github.com/HyDROSLab/EF5-US-Parameters).
