@@ -2,8 +2,6 @@
 
 This repository contains all materials needed for running the EF5 hydrological model for Iowa at a 90m resolution.
 
-## System Requirements
-- A laptop with **at least 8 GB of RAM**.
 ---
 
 ## Setup Instructions
@@ -76,6 +74,6 @@ After a successful build, you can verify the presence of the EF5 container in Do
 
 ---
 
-The EF5 Docker image is now ready to be executed for the workshop.
+The EF5 Docker image is now ready to be executed.
 
 --- 
