@@ -28,11 +28,11 @@ You can either **download** or **clone** the repository to your machine.
 2. Select **Download ZIP** and extract the contents.
 3. Ensure the extracted folder is in a location without spaces in its path (e.g., `model_repository`).
 
-#### **Option 2: Clone**
+#### **Option 2: Clone the branch**
 1. Copy the repository URL under **Code > HTTPS**.
 2. Run the following command in your terminal:
    ```bash
-   git clone https://github.com/RobledoVD/WAEF5-dockerized.git
+   git clone --branch IowaEF5_dockerized --single-branch https://github.com/AHWALab/WAEF5-dockerized.git
    ```
 3. Place the cloned folder in a directory without spaces in its name.
 
