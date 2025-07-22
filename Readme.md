@@ -46,7 +46,7 @@ You can either **download** or **clone** the repository to your machine.
 1. Open your terminal and navigate to the project's main folder.  
    Example for a folder on your Desktop:
    ```bash
-   cd ~/Desktop/IowaEF5_dockerized/
+   cd ~/Desktop/WAEF5-dockerized/
    ```
 2. Change into the `docker/` folder:
    ```bash
