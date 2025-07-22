@@ -80,4 +80,4 @@ The EF5 Docker image is now ready to be executed.
 
 ### Complete the required folders 
 Use the code provided in `/data/precip/` to download IMERG Final Run V07 precip files. 
-The complete gauge block for Iowa is provided in `/config/`, add it to your control file for a simulation of the entire domain.
+The complete gauge block for Iowa is provided in `/conf/`, add it to your control file for a simulation of the entire domain.
