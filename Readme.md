@@ -1,6 +1,6 @@
 # Iowa EF5 configuration model
 
-This repository contains all materials needed for running the EF5 hydrological model for Iowa at a 90m resolution.
+This repository contains all materials needed for running the EF5 hydrological model for Iowa at 1km resolution.
 
 ---
 
@@ -79,4 +79,5 @@ The EF5 Docker image is now ready to be executed.
 --- 
 
 ### Complete the required folders 
-To complete EF5 input forcing you will need to download PET files, you can use [EF5-US-Parameters](https://github.com/HyDROSLab/EF5-US-Parameters).
+Use the code provided in `/data/precip/` to download IMERG Final Run V07 precip files. 
+The complete gauge block for Iowa is provided in `/config/`, add it to your control file for a simulation of the entire domain.
