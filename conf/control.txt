@@ -1,59 +1,61 @@
 [Basic]
-DEM=
-DDM=
-FAM=
+DEM=/data/basic/DEM_Iowa1km.tif
+DDM=/data/basic/FDIR_Iowa1km.tif
+FAM=/data/basic/FAC_Iowa1km.tif
 PROJ=geographic
 ESRIDDM=true 
 SelfFAM=false
 
 [PrecipForcing IMERG]
-TYPE=
-UNIT=
-FREQ=
-LOC=
-NAME=
+TYPE=TIF
+UNIT=mm/h
+FREQ=30u
+LOC=/data/precip/
+NAME=imerg.YYYYMMDDHHUU.tif
 
 [PETForcing CLIMO]
-LOC=
-FREQ=
-UNIT=
-NAME=
-TYPE=
+LOC=/data/pet/
+FREQ=1m
+UNIT=mm/d
+NAME=PET_MM_usa.tif
+TYPE=TIF
 
 #---Start Gauge-Basin Block
-[Gauge 0]
+[gauge 0] lat=39.93 lon=-91.42
 
 [Basin 0]
-gauge=0 
+gauge=0
 
 #---End Gauge-Basin Block
 
 [CrestParamSet MyCRESTPAR]
-wm_grid=
-b_grid=
-im_grid=
-fc_grid=
+wm_grid=/data/parameters/wm_iowa.tif
+im_grid=/data/parameters/im_iowa.tif
+fc_grid=/data/parameters/ksat_iowa.tif
+b_grid=/data/parameters/b_iowa.tif
+
 gauge=0
-wm=1.00
+wm=1.0
 b=1.0
 im=0.01
 ke=1.0
-fc=1.00
-iwu=0.0
+fc=1.0
+iwu=0
 
 [kwparamset MyKWPAR]
-alpha_grid=
-beta_grid=
-alpha0_grid=
-under_grid=
+under_grid=/data/parameters/ksat_iowa.tif
+leaki_grid=/data/parameters/leaki_iowa.tif
+alpha_grid=/data/parameters/alpha_iowa.tif
+beta_grid=/data/parameters/beta_iowa.tif
+alpha0_grid=/data/parameters/alpha0_iowa.tif
 gauge=0
-alpha=1.0
 alpha0=1.0
+alpha=1.0
 beta=1.0
-under=0.001
-leaki=0.03
-th=12.0
-isu=0.0
+under=0.0001
+leaki=1.0
+th=10.0
+isu=00.0/data/parameters/
 
 [Task Simulation]
 STYLE=SIMU
