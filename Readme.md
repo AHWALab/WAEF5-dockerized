@@ -1,5 +1,5 @@
-# SERVIR - West Africa EF5 Workshop
-
+# Dockerized EF5 Hydrologic Model for West Africa (1 km Resolution). 
+SERVIR - West Africa EF5 Workshop.
 This repository contains all materials needed for running the EF5 hydrological model for West Africa at a 1 km resolution.
 
 ## System Requirements
