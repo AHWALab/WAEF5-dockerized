@@ -1,82 +1,93 @@
-# Dockerized EF5 Hydrologic Model for West Africa (1 km Resolution). 
-SERVIR - West Africa EF5 Workshop.
-This repository contains all materials needed for running the EF5 hydrological model for West Africa at a 1 km resolution.
+# Modelo Hidrológico EF5 Dockerizado para Cuba (Resolución de 1 km).
 
-## System Requirements
-- A laptop with **at least 8 GB of RAM**.
-- A Google account to access Google Colab.
----
+Taller EF5 - Cuba.
+Este repositorio contiene todos los materiales necesarios para ejecutar el modelo hidrológico EF5 para Cuba a una resolución de 1 km.
 
-## Setup Instructions
+## Requisitos del sistema
 
-### 1. Install Docker Desktop
-1. Download Docker Desktop (~600MB) from the official website:  
-   [Docker Desktop Download](https://www.docker.com/products/docker-desktop/)
-
-2. Use the **Download Docker Desktop** button (no account is needed).
-
-3. After installation, adjust Docker's resource settings to allocate at least 8 GB of RAM:
-   - Open Docker Desktop.
-   - Go to **Settings** > **Resources** > **Advanced**.
-   - Adjust the **Memory** slider to **8 GB**.
-   - Click **Apply & Restart**.
+- Una computadora portátil con **al menos 8 GB de RAM**.
+- Una cuenta de Google para acceder a Google Colab.
 
 ---
 
-### 2. Download or Clone This Repository
-You can either **download** or **clone** the repository to your machine.
+## Instrucciones de configuración
 
-#### **Option 1: Download**
-1. Click the green **Code** button in this repository.
-2. Select **Download ZIP** and extract the contents.
-3. Ensure the extracted folder is in a location without spaces in its path (e.g., `model_repository`).
+### 1. Instalar Docker Desktop
 
-#### **Option 2: Clone**
-1. Copy the repository URL under **Code > HTTPS**.
-2. Run the following command in your terminal:
+1. Descarga Docker Desktop (~600 MB) desde el sitio oficial:  
+   [Descarga de Docker Desktop](https://www.docker.com/products/docker-desktop/)
+
+2. Usa el botón **Download Docker Desktop** (no se necesita cuenta).
+
+3. Después de la instalación, ajusta la configuración de recursos de Docker para asignar al menos 8 GB de RAM:
+   - Abre Docker Desktop.
+   - Ve a **Settings** > **Resources** > **Advanced**.
+   - Ajusta el control de **Memory** a **8 GB**.
+   - Haz clic en **Apply & Restart**.
+
+---
+
+### 2. Descargar o clonar este repositorio
+
+Puedes **descargar** o **clonar** el repositorio en tu máquina.
+
+#### **Opción 1: Descargar**
+
+1. Haz clic en el botón verde **Code** en este repositorio.
+2. Selecciona **Download ZIP** y extrae el contenido.
+3. Asegúrate de que la carpeta extraída esté en una ubicación sin espacios en la ruta (por ejemplo, `model_repository`).
+
+#### **Opción 2: Clonar**
+
+1. Copia la URL del repositorio en **Code > HTTPS**.
+2. Ejecuta el siguiente comando en tu terminal:
    ```bash
    git clone https://github.com/RobledoVD/WAEF5-dockerized.git
    ```
-3. Place the cloned folder in a directory without spaces in its name.
+3. Coloca la carpeta clonada en un directorio sin espacios en su nombre.
 
-**Important:** Avoid folder names with spaces, as this can cause errors when running the model.
+**Importante:** Evita nombres de carpetas con espacios, ya que pueden causar errores al ejecutar el modelo.
 
 ---
 
-### 3. Build the EF5 Docker Container
+### 3. Construir el contenedor Docker de EF5
 
 #### **macOS/Linux**
-1. Open your terminal and navigate to the project's main folder.  
-   Example for a folder on your Desktop:
+
+1. Abre tu terminal y navega a la carpeta principal del proyecto.  
+   Ejemplo para una carpeta en tu Escritorio:
    ```bash
    cd ~/Desktop/EF5WA-dockerized-main/
    ```
-2. Change into the `docker/` folder:
+2. Entra a la carpeta `docker/`:
    ```bash
    cd docker
    ```
-3. Execute the build script:
+3. Ejecuta el script de construcción:
    ```bash
    bash build_ef5_container.sh
    ```
-4. Follow the instructions on the terminal. Once the process completes, verify that the EF5 container image has been built by checking the **Images** pane in Docker Desktop.
+4. Sigue las instrucciones en la terminal. Cuando el proceso termine, verifica que la imagen del contenedor EF5 se haya construido revisando el panel **Images** en Docker Desktop.
 
 #### **Windows**
-1. Open File Explorer and navigate to the project's main folder.
-2. Go into the `docker/` folder.
-3. Double-click the `build_ef5_container.bat` file.
-4. A command window will open to show the build process. After completion, check the **Images** pane in Docker Desktop to confirm the image has been built.
+
+1. Abre el Explorador de archivos y navega a la carpeta principal del proyecto.
+2. Entra a la carpeta `docker/`.
+3. Haz doble clic en el archivo `build_ef5_container.bat`.
+4. Se abrirá una ventana de comandos que mostrará el proceso de construcción. Al finalizar, verifica en el panel **Images** de Docker Desktop que la imagen se haya creado.
 
 ---
 
-### Verifying the Build
-After a successful build, you can verify the presence of the EF5 container in Docker Desktop:
-1. Open Docker Desktop.
-2. Navigate to the **Images** tab.
-3. Look for an image named `ef5-container`.
+### Verificar la construcción
+
+Después de una construcción exitosa, puedes verificar la presencia del contenedor EF5 en Docker Desktop:
+
+1. Abre Docker Desktop.
+2. Ve a la pestaña **Images**.
+3. Busca una imagen llamada `ef5-container`.
 
 ---
 
-The EF5 Docker image is now ready to be executed for the workshop.
+La imagen de Docker de EF5 ya está lista para ejecutarse para el taller.
 
---- 
+---
