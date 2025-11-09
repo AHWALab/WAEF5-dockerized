@@ -53,7 +53,7 @@ RUN apk add libgeotiff-dev
 WORKDIR ../
 
 # Clone EF5 from GitHub onto the ef5 folder in the project root
-RUN git clone https://github.com/HyDROSLab/EF5.git ./ef5
+RUN git clone https://github.com/AHWALab/EF5.git ./ef5
 
 # Set the ef5 folder as the working directory
 WORKDIR ./ef5
