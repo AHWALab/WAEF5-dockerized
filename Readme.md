@@ -93,3 +93,11 @@ Después de una construcción exitosa, puedes verificar la presencia del contene
 La imagen de Docker de EF5 ya está lista para ejecutarse para el taller.
 
 ---
+
+## Documentación adicional
+
+Para más detalles sobre configuración avanzada, parámetros del modelo, guías de calibración y estructura de archivos de entrada/salida, consulta la documentación oficial de EF5:
+
+https://ef5docs.readthedocs.io/en/latest/index.html
+
+---
