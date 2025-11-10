@@ -27,24 +27,26 @@ Este repositorio contiene todos los materiales necesarios para ejecutar el model
 
 ---
 
-### 2. Descargar o clonar este repositorio
+### 2. Descargar o Clonar Este Repositorio
 
-Puedes **descargar** o **clonar** el repositorio en tu máquina.
+Puedes descargar o clonar el repositorio en tu máquina.
 
-#### **Opción 1: Descargar**
+#### Opción 1: Descargar
 
-1. Haz clic en el botón verde **Code** en este repositorio.
-2. Selecciona **Download ZIP** y extrae el contenido.
-3. Asegúrate de que la carpeta extraída esté en una ubicación sin espacios en la ruta (por ejemplo, `model_repository`).
+Haz clic en el botón azul **Code** en este repositorio.
+Selecciona **Download ZIP** y extrae el contenido.
+Asegúrate de que la carpeta extraída esté en una ubicación sin espacios en su ruta (por ejemplo, `model_repository`).
 
-#### **Opción 2: Clonar**
+#### Opción 2: Clonar la rama
 
-1. Copia la URL del repositorio en **Code > HTTPS**.
-2. Ejecuta el siguiente comando en tu terminal:
-   ```bash
-   git clone https://github.com/RobledoVD/WAEF5-dockerized.git
-   ```
-3. Coloca la carpeta clonada en un directorio sin espacios en su nombre.
+Copia la URL del repositorio en **Code > HTTPS**.
+Ejecuta el siguiente comando en tu terminal:
+
+```bash
+git clone --branch CUEF5-dockerized --single-branch https://github.com/AHWALab/WAEF5-dockerized.git
+```
+
+Coloca la carpeta clonada en un directorio sin espacios en su nombre.
 
 **Importante:** Evita nombres de carpetas con espacios, ya que pueden causar errores al ejecutar el modelo.
 
@@ -57,7 +59,7 @@ Puedes **descargar** o **clonar** el repositorio en tu máquina.
 1. Abre tu terminal y navega a la carpeta principal del proyecto.  
    Ejemplo para una carpeta en tu Escritorio:
    ```bash
-   cd ~/Desktop/EF5WA-dockerized-main/
+   cd ~/Desktop/EF5CU-dockerized-main/
    ```
 2. Entra a la carpeta `docker/`:
    ```bash
